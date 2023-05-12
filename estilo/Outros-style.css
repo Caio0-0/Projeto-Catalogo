@@ -1,16 +1,20 @@
 @charset "UTF-8";
 
+@media (max-width:3px) {
+
+}
 @media (max-width:1215px) {
     .conteiner{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 10vh 10vh;
         grid-template-areas: 
-        "h h . ."
-        "m m . .";
+        "h h "
+        "m m ";
     }
     .produtos{
         display: grid;
+        justify-content:center ;
         grid-template-columns: .1fr 0.1fr 0.1fr;
         grid-template-areas: 
         ". a1 a1 ."
@@ -24,11 +28,11 @@
         border-radius: 10px;
         background-color: #ffffff;
         margin-left: 6px;
-        width: 350px;
+        width: 320px;
     }
     #img-1 img{
         margin: auto;
-        width: 200px;
+        width: 170px;
     }
     .produto-1{
         margin: auto;
@@ -41,9 +45,9 @@
         display: none;
     }
     #img-2 img,#img-3 img,#img-4 img ,#img-5 img,#img-6 img,#img-7 img{
-        width: 100px;
+        width: 90px;
     }
     #img-2,#img-3,#img-4,#img-5,#img-6,#img-7{
-        width: 165px;
+        width: 146px;
     }
 }
