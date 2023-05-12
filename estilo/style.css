@@ -18,7 +18,7 @@ html,body{
 .conteiner{
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 20vh 104vh;
+    grid-template-rows: 20vh 110vh;
     grid-template-areas: 
     "s h h"
     "s m m";
@@ -70,7 +70,7 @@ html,body{
 }
 .menu-lateral-produto{
     margin-bottom: 270px;
-    margin-top: 110px;
+    margin-top: 90px;
 }
 .conteudo-menu-lateral{
     margin-top: 70px;

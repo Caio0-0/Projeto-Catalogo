@@ -3,11 +3,11 @@
 @media (max-width:3px) {
 
 }
-@media (max-width:1215px) {
+@media (max-width:1230px) {
     .conteiner{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 10vh 10vh;
+        grid-template-columns: 3fr 10fr;
+        grid-template-rows: 10vh 7vh;
         grid-template-areas: 
         "h h "
         "m m ";
@@ -21,7 +21,8 @@
         ". a1 a1 ."
         ". a2 a3 ."
         ". a4 a5 ."
-        ". a6 a7 .";
+        ". a6 a7 ."
+        ". . . . ";
         gap: 20px;
     }
     #img-1{
