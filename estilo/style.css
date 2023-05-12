@@ -84,6 +84,11 @@ html,body{
     margin-bottom: 20px;
     cursor: pointer;
     transition: 0.2s ease;
+    
+}
+.conteudo-menu-lateral a{
+    text-decoration: none;
+    color: white;
 }
 .conteudo-menu-lateral ul li:hover{
    border-bottom: 2px solid white;
@@ -112,6 +117,7 @@ html,body{
 
 .produto-1{
     grid-area: a1;
+    margin: auto;
     border: 1px solid rgba(255, 255, 255, 0.301);
     
 }
