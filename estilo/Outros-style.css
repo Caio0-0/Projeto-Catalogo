@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media (max-width:1215px) {
+    .conteiner{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 20vh 0vh;
+        grid-template-areas: 
+        "h h . ."
+        "m m . .";
+    }
+    .produtos{
+        display: grid;
+        grid-template-columns: .1fr 0.1fr 0.1fr;
+        grid-template-areas: 
+        ". a1 a1 ."
+        ". a1 a1 ."
+        ". a2 a3 ."
+        ". a4 a5 ."
+        ". a6 a7 .";
+        gap: 20px;
+    }
+    #img-1{
+        border-radius: 10px;
+        background-color: #ffffff;
+        margin-left: 6px;
+        width: 418px;
+    }
+    #img-1 img{
+        margin: auto;
+        width: 230px;
+    }
+    .produto-3,.produto-2{
+       display:grid;
+        
+    }
+    .menu-lateral{
+        display: none;
+    }
+}
