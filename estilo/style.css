@@ -20,7 +20,7 @@ html,body{
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 20vh 110vh;
     grid-template-areas: 
-    "s h h"
+    "s h h "
     "s m m";
     
 
@@ -94,8 +94,13 @@ html,body{
    border-bottom: 2px solid white;
    width: 80px;
 }
+.logo{
+    position: fixed;
+    margin-top: 360px;
+}
 .logo i{
     font-size: 1.7em;
+    
 }
 
 /*Conteudo PrincipL*/
@@ -188,4 +193,21 @@ html,body{
 .informacao p{
     padding: 5px;
 }
-
+.conteudo-principal i{
+    display: none;
+}
+.fechar-menu{
+    display: none;
+    padding: 10px;
+    font-size: 2em;
+}
+#abrir-menu{
+    position: fixed;
+    color: #ffffff;
+    margin: 0px;
+    font-size: 2em;
+    margin-top: 250px;
+}
+#abrir-menu{
+    display: none;
+}
