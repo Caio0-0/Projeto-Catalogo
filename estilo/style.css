@@ -55,10 +55,24 @@ html,body{
 }
 .cabecalho-menu{
     font-size: 1.2em;
+    margin-right: 40px;
+    display: inline-block;
 }
 .icones i{
-    margin-right: 30px;
+
     cursor: pointer;
+}
+.icones{
+    display: inline;
+
+}
+.input-Pesquisa{
+    display: none;
+    transition: ease 1s;
+}
+.input-Pesquisa input{
+    border-radius: 10px;
+    border: 1px solid #4e4e6d;
 }
 /*Menu lateral*/
 .menu-lateral{
