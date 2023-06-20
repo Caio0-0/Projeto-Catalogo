@@ -21,6 +21,7 @@ html,body{
     grid-template-rows: 20vh 110vh;
     grid-template-areas: 
     "s h h "
+    "s m m"
     "s m m";
     
 
@@ -68,22 +69,29 @@ html,body{
 }
 .input-Pesquisa{
     display: none;
-    transition: ease 1s;
+    align-items: center;
+    justify-items: center;
 }
 .input-Pesquisa input{
+
     border-radius: 10px;
+    padding:4px;
     border: 1px solid #4e4e6d;
 }
 /*Menu lateral*/
 .menu-lateral{
     display: flex;
+    position: fixed;
     flex-direction: column;
     justify-content: space-around;
     margin-left:5px ;
     padding: 20px;
+    padding-right: 100px;
+    border-right: 1px solid #37374b;
+    height: 100vh;
 }
 .menu-lateral-produto{
-    margin-bottom: 270px;
+    margin-bottom: 250px;
     margin-top: 90px;
 }
 .conteudo-menu-lateral{
@@ -104,9 +112,11 @@ html,body{
     text-decoration: none;
     color: white;
 }
-.conteudo-menu-lateral ul li:hover{
-   border-bottom: 2px solid white;
-   width: 80px;
+.conteudo-menu-lateral a:hover{
+
+    border-bottom: 1px solid #ffffff;
+    width: 80px;
+    transition: 0.2s ease;
 }
 .logo{
     position: fixed;
@@ -118,6 +128,9 @@ html,body{
 }
 
 /*Conteudo PrincipL*/
+.conteudo-principal{
+
+}
 .produtos{
     display: grid;
     grid-template-columns: .1fr 0.1fr 0.1fr;
@@ -129,7 +142,7 @@ html,body{
 }
 .produto-1,.produto-2,.produto-3,.produto-4,.produto-5,.produto-6,.produto-7{
     border-radius: 10px;
-    padding: 5px;
+    padding: 15px;
     transition: 0.5s ease;
     cursor: pointer;
 }
@@ -147,7 +160,7 @@ html,body{
     transition: 0.5s ease;
 }
 #img-1 img{
-    display: flex;
+    display: block;
     margin: auto;
     width: 250px;
 }
@@ -186,7 +199,6 @@ html,body{
 #img-1{
     border-radius: 10px;
     background-color: #ffffff;
-    margin-left: 6px;
     width: 440px;
 }
 #img-2,#img-3,#img-4,#img-5,#img-6,#img-7{

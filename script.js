@@ -19,7 +19,9 @@ const pesquisa = document.querySelector(".input-Pesquisa")
 function abrirPesquisa(){
     if (pesquisa.style.display == "none"){
         pesquisa.style.display ="inline"
+        
     }else{
         pesquisa.style.display = "none"
+        pesquisa.value = ""
     }
 }
